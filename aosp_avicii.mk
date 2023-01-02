@@ -28,12 +28,12 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := aosp_avicii
-PRODUCT_DEVICE := avicii
+PRODUCT_NAME := aosp_holi
+PRODUCT_DEVICE := holi
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := AC2001
-CUSTOM_DEVICE := Nord
+PRODUCT_MODEL := CPH2381
+CUSTOM_DEVICE := Nord ce 2 lite
 
 PRODUCT_SYSTEM_NAME := Nord
 PRODUCT_SYSTEM_DEVICE := Nord

@@ -58,8 +58,8 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oneplus
 
-# Inherit from oneplus sm7250-common
-$(call inherit-product, device/oneplus/sm7250-common/common.mk)
+# Inherit from oneplus sm6375-common
+$(call inherit-product, device/oneplus/sm6375-common/common.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/oneplus/avicii/avicii-vendor.mk)
+$(call inherit-product, vendor/oneplus/holi/holi-vendor.mk)

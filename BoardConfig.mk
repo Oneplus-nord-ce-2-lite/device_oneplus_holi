@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-# Inherit from oneplus sm7250-common
--include device/oneplus/sm7250-common/BoardConfigCommon.mk
+# Inherit from oneplus sm6375-common
+-include device/oneplus/sm6375-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/avicii
+DEVICE_PATH := device/oneplus/holi
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -33,4 +33,4 @@ BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 7511998464
 BOARD_SUPER_PARTITION_SIZE := 15032385536
 
 # inherit from the proprietary version
--include vendor/oneplus/avicii/BoardConfigVendor.mk
+-include vendor/oneplus/holi/BoardConfigVendor.mk

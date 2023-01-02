@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=avicii
-export DEVICE_COMMON=sm7250-common
+export DEVICE=holi
+export DEVICE_COMMON=sm6375-common
 export VENDOR=oneplus
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

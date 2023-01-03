@@ -58,6 +58,10 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oneplus
 
+# Inherit from oneplus device tree
+$(call inherit-product, device/oneplus/holi/aosp-holi.mk)
+
+
 # Inherit from oneplus sm6375-common
 $(call inherit-product, device/oneplus/sm6375-common/common.mk)
 

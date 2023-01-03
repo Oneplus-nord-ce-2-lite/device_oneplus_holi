@@ -65,5 +65,3 @@ $(call inherit-product, device/oneplus/holi/aosp-holi.mk)
 # Inherit from oneplus sm6375-common
 $(call inherit-product, device/oneplus/sm6375-common/common.mk)
 
-# Inherit from vendor blobs
-$(call inherit-product, vendor/oneplus/holi/holi-vendor.mk)

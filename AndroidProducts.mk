@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_holi.mk
+    $(LOCAL_DIR)/evolution_holi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_holi-user \
-    aosp_holi-userdebug \
-    aosp_holi-eng
+    evolution_holi-user \
+    evolution_holi-userdebug \
+    evolution_holi-eng

@@ -18,6 +18,8 @@
 -include device/oneplus/sm6375-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/holi
+# Kernel
+BOARD_KERNEL_IMAGE_NAME := Image
 
 # Architecture
 TARGET_ARCH := arm64

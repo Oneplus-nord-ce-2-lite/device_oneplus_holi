@@ -20,6 +20,7 @@
 DEVICE_PATH := device/oneplus/holi
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image
+TARGET_KERNEL_CONFIG := holi_QGKI
 
 # Architecture
 TARGET_ARCH := arm64

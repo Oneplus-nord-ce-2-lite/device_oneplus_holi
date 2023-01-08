@@ -22,21 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/holi/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/oneplus/holi/holi-vendor.mk)
-
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # PixelExperience Properties
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
+
 PRODUCT_NAME := aosp_holi
 PRODUCT_DEVICE := holi
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
+PRODUCT_MANUFACTURER := Oneplus
+PRODUCT_BRAND := One plus
 PRODUCT_MODEL := CPH2381
-CUSTOM_DEVICE := Nord ce 2 lite
-
-PRODUCT_SYSTEM_NAME := Nord ce 2 lite
-PRODUCT_SYSTEM_DEVICE := Nord ce 2 lite
+PRODUCT_MODEL := OnePlus Nord CE2 Lite 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
